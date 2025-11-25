@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg
+*.egg-info/
+dist/
+build/
+
+# Virtual Environment
+backend/venv/
+venv/
+env/
+ENV/
+
+# Node.js
+frontend/node_modules/
+node_modules/
+
+# Build outputs
+frontend/dist/
+frontend/.vite/
+
+# Package locks (optional - some teams commit these)
+# frontend/package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Project specific
+data/
+*.db
+*.sqlite
+*.sqlite3
+
+# Logs
+*.log
